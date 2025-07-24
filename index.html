@@ -1,102 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portal da Mitologia Grega</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background-color: #fefcf9;
+      color: #333;
+    }
+    header {
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fb/Mount_Olympus.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 80px 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      color: #ffd700;
+      text-shadow: 2px 2px 4px #000;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      text-shadow: 1px 1px 3px #000;
+    }
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #b8860b;
+      border-bottom: 2px solid #e0d8c3;
+      padding-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #f0e8d9;
+      text-align: center;
+      padding: 20px;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="overlay">
-      <h1>Portal da Mitologia Grega</h1>
-      <p>"Descubra os segredos eternos dos deuses do Olimpo, os feitos heroicos dos guerreiros lendários e os mitos que moldaram a civilização ocidental."</p>
-    </div>
+    <h1>Portal da Mitologia Grega</h1>
+    <p>Explore os deuses, heróis e mitos eternos da Grécia Antiga</p>
   </header>
-
   <nav>
-    <ul>
-      <li><a href="#deuses-olimpicos">Deuses Olímpicos</a></li>
-      <li><a href="#deuses-primordiais">Deuses Primordiais</a></li>
-      <li><a href="#herois">Heróis Gregos</a></li>
-      <li><a href="#blog">Blog de Mitos</a></li>
-      <li><a href="#sobre">Sobre o Projeto</a></li>
-    </ul>
+    <a href="#olimpo">Deuses Olímpicos</a>
+    <a href="#menores">Deuses Menores</a>
+    <a href="#primordiais">Primordiais</a>
+    <a href="#herois">Heróis</a>
+    <a href="#blog">Blog</a>
+    <a href="#sobre">Sobre</a>
   </nav>
 
-  <main>
-    <section id="deuses-olimpicos">
-      <h2>Deuses Olímpicos</h2>
-      <div class="cards">
-        <div class="card">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Zeus_smiting_Typhon.jpg/640px-Zeus_smiting_Typhon.jpg" alt="Zeus">
-          <h3>Zeus</h3>
-          <p>Rei dos deuses e senhor dos céus e dos raios.</p>
-        </div>
-        <div class="card">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Athena-Glyptothek-Munich.jpg/640px-Athena-Glyptothek-Munich.jpg" alt="Atena">
-          <h3>Atena</h3>
-          <p>Deusa da sabedoria, da guerra estratégica e da justiça.</p>
-        </div>
-        <!-- Adicione mais deuses aqui -->
-      </div>
-    </section>
+  <section id="olimpo">
+    <h2>Deuses Olímpicos</h2>
+    <ul>
+      <li>Zeus – Céu e trovões</li>
+      <li>Hera – Casamento</li>
+      <li>Poseidon – Oceanos</li>
+      <li>Deméter – Agricultura</li>
+      <li>Atena – Sabedoria e guerra</li>
+      <li>Apollo – Sol e música</li>
+      <li>Ártemis – Caça e lua</li>
+      <li>Ares – Guerra</li>
+      <li>Afrodite – Amor e beleza</li>
+      <li>Hefesto – Forja e metalurgia</li>
+      <li>Hermes – Mensageiro</li>
+      <li>Dionísio – Vinho e celebração</li>
+    </ul>
+  </section>
 
-    <section id="deuses-primordiais">
-      <h2>Deuses Primordiais</h2>
-      <div class="cards">
-        <div class="card">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Nyx.jpg/640px-Nyx.jpg" alt="Nix">
-          <h3>Nyx</h3>
-          <p>Deusa primordial da noite, anterior até mesmo a Zeus.</p>
-        </div>
-        <div class="card">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Gaia-detail-Giulio_Romano.jpg/640px-Gaia-detail-Giulio_Romano.jpg" alt="Gaia">
-          <h3>Gaia</h3>
-          <p>A Mãe Terra, origem de todos os seres vivos e deuses.</p>
-        </div>
-        <!-- Mais primordiais aqui -->
-      </div>
-    </section>
+  <section id="menores">
+    <h2>Deuses Menores</h2>
+    <ul>
+      <li>Hécate – Magia</li>
+      <li>Nêmesis – Justiça divina</li>
+      <li>Éolo – Ventos</li>
+      <li>Eros – Amor</li>
+      <li>Íris – Arco-íris e mensagens</li>
+    </ul>
+  </section>
 
-    <section id="herois">
-      <h2>Heróis Gregos</h2>
-      <div class="cards">
-        <div class="card">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Hercules_Vatican_Museum.jpg/640px-Hercules_Vatican_Museum.jpg" alt="Hércules">
-          <h3>Hércules</h3>
-          <p>Conhecido pelos 12 trabalhos, símbolo da força e coragem.</p>
-        </div>
-        <div class="card">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Perseus_with_the_Head_of_Medusa_by_Benvenuto_Cellini.jpg/640px-Perseus_with_the_Head_of_Medusa_by_Benvenuto_Cellini.jpg" alt="Perseu">
-          <h3>Perseu</h3>
-          <p>Matador da Medusa e herói fundador de Micenas.</p>
-        </div>
-        <!-- Mais heróis aqui -->
-      </div>
-    </section>
+  <section id="primordiais">
+    <h2>Deuses Primordiais (em ordem)</h2>
+    <ul>
+      <li>Caos – O vazio original</li>
+      <li>Gaia – Terra</li>
+      <li>Tártaro – Abismo</li>
+      <li>Érebo – Escuridão</li>
+      <li>Nix – Noite</li>
+      <li>Urano – Céu</li>
+      <li>Hemera – Dia</li>
+      <li>Éter – Luz</li>
+    </ul>
+  </section>
 
-    <section id="blog">
-      <h2>Blog de Mitos</h2>
-      <article>
-        <h3>O Nascimento de Afrodite</h3>
-        <p>Segundo a Teogonia de Hesíodo, Afrodite surgiu da espuma do mar após o corte de Urano. Um dos mitos mais poéticos e simbólicos da Grécia Antiga.</p>
-      </article>
-      <article>
-        <h3>O Labirinto do Minotauro</h3>
-        <p>Conheça o mito de Teseu e sua jornada para derrotar o temido Minotauro no labirinto de Creta.</p>
-      </article>
-      <!-- Mais posts -->
-    </section>
+  <section id="herois">
+    <h2>Heróis Gregos</h2>
+    <ul>
+      <li>Hércules – Realizou os 12 trabalhos</li>
+      <li>Perseu – Matou a Medusa</li>
+      <li>Teseu – Derrotou o Minotauro</li>
+      <li>Jasão – Conquistou o Velocino de Ouro</li>
+      <li>Aquiles – Guerreiro da Guerra de Troia</li>
+      <li>Odisseu – Astuto navegador da Odisseia</li>
+      <li>Orfeu – Enfrentou o submundo com sua música</li>
+    </ul>
+  </section>
 
-    <section id="sobre">
-      <h2>Sobre o Projeto</h2>
-      <p>Este portal foi criado com fins educativos e culturais, reunindo mitos, curiosidades e interpretações modernas sobre a rica mitologia grega. Esperamos inspirar a curiosidade e o conhecimento sobre os deuses, heróis e lendas que moldaram nossa cultura ocidental.</p>
-    </section>
-  </main>
+  <section id="blog">
+    <h2>Blog de Mitos</h2>
+    <article>
+      <h3>O nascimento de Afrodite</h3>
+      <p>Afrodite nasceu da espuma do mar após Urano ser castrado por Cronos.</p>
+    </article>
+    <article>
+      <h3>A Caixa de Pandora</h3>
+      <p>Pandora abriu a caixa liberando todos os males do mundo, mas manteve a esperança.</p>
+    </article>
+    <article>
+      <h3>Prometeu e o fogo</h3>
+      <p>Prometeu roubou o fogo dos deuses para entregar à humanidade, sendo punido por Zeus.</p>
+    </article>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>Este site foi criado por Pedro para divulgar a mitologia grega de forma acessível, educativa e encantadora. A ideia é apresentar os personagens e mitos mais importantes de maneira simples, mas rica em detalhes.</p>
+  </section>
 
   <footer>
-    <p>© 2025 Portal da Mitologia Grega. Projeto educativo e cultural.</p>
+    <p>&copy; 2025 Portal da Mitologia Grega — Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
